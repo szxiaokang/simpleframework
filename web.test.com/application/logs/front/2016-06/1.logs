@@ -1,0 +1,2 @@
+[2016-06-01 13:22:42] POST 127.0.0.1 /user/login action=login&url=&email=273030282@qq.com&password=kangyun&captch=jvmq 0(OK) 
+[2016-06-01 16:00:46] POST 127.0.0.1 /user/edit action=edit&avatar=/upload/image/20160601/201606...&email=273030282@qq.com&password=######&repassword=######&sex=2 0(OK) 

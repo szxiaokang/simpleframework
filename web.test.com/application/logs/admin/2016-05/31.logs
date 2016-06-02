@@ -1,0 +1,3 @@
+[2016-05-31 16:46:24] POST 127.0.0.1 /admin/index/login action=login&username=xiaokang8&password=kangyun&code=z4tg 0(OK) 
+[2016-05-31 16:46:47] POST 127.0.0.1 /admin/news/add?action=upload  0(OK) http://web.test.com/upload/image/20160531/20160531164647_23949.jpg
+[2016-05-31 16:46:51] POST 127.0.0.1 /admin/news/add action=add&id=&url=&title=testsdf &sub_title=tsadadfasdf&type=9&images=/upload/image/20160531/201605...&content=adsfasdf as<br /> 0(OK) 

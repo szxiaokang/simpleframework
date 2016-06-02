@@ -1,0 +1,8 @@
+[2016-06-01 11:09:01] POST 127.0.0.1 /admin/index/login action=login&username=xiaokang8&password=kangyun&code=a54t 0(OK) 
+[2016-06-01 11:09:25] POST 127.0.0.1 /admin/news/add?action=upload  0(OK) http://web.test.com/upload/image/20160601/20160601110925_41352.jpg
+[2016-06-01 15:34:09] POST 127.0.0.1 /user/edit?action=upload  0(OK) http://web.test.com/upload/image/20160601/20160601153409_85747.jpg
+[2016-06-01 15:35:29] POST 127.0.0.1 /user/edit?action=upload  0(OK) http://web.test.com/upload/image/20160601/20160601153529_93518.jpg
+[2016-06-01 15:35:46] POST 127.0.0.1 /user/edit?action=upload  0(OK) http://web.test.com/upload/image/20160601/20160601153546_66008.png
+[2016-06-01 15:50:12] POST 127.0.0.1 /user/edit?action=upload  0(OK) http://web.test.com/upload/image/20160601/20160601155012_47702.png
+[2016-06-01 15:50:42] POST 127.0.0.1 /user/edit?action=upload  0(OK) http://web.test.com/upload/image/20160601/20160601155042_70386.png
+[2016-06-01 16:00:44] POST 127.0.0.1 /user/edit?action=upload  0(OK) http://web.test.com/upload/image/20160601/20160601160044_68238.png

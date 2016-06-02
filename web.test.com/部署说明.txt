@@ -1,0 +1,27 @@
+1 创建simpleFramework数据库, 将simpleFramework.sql导入
+2 增加nginx配置:
+	    server {
+        listen       80;
+        server_name web.test.com;#可自定域名
+		root E:/dev-www/simpleFramework/web.test.com/www; #改成你的目录
+		location / {
+			index  index.shtml index.htm index.php;
+			if (!-e $request_filename){
+				rewrite ^/(.*) /index.php last;
+			}
+		}
+	 
+        location ~ \.php$ {        		
+            fastcgi_pass   127.0.0.1:9000;
+            fastcgi_index  index.php;
+            fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
+            include        fastcgi_params;
+        }
+ 
+    }
+3 在c:\Windows\System32\drivers\etc\hosts增加:
+	127.0.0.1 web.test.com
+4 更改数据库配置: web.test.com/application/config/development/config.php
+	
+	打开浏览器输入 web.test.com
+	祝你好运! :)

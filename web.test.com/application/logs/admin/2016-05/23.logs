@@ -1,0 +1,29 @@
+[2016-05-23 09:15:25] POST 127.0.0.1 /admin/index/login action=login&username=xiaokang8&password=kangyun&code=crtr 0(OK) 
+[2016-05-23 09:28:33] POST 127.0.0.1 /admin/news/addType action=check&name=test&id= 0(OK) 
+[2016-05-23 09:30:53] POST 127.0.0.1 /admin/news/addType action=check&name=test3&id= 0(OK) 
+[2016-05-23 09:30:54] POST 127.0.0.1 /admin/news/addType action=add&id=&url=&name=test3 0(OK) 
+[2016-05-23 11:20:24] POST 127.0.0.1 /admin/news/addType action=edit&id=6&url=http://web.test.com/admin/new...&name=国内要闻3 0(OK) 
+[2016-05-23 14:17:05] POST 127.0.0.1 /admin/news/add?action=upload  0(OK) http://web.test.com/upload/image/20160523/20160523141705_62750.gif
+[2016-05-23 14:17:41] POST 127.0.0.1 /admin/news/add?action=upload&dir=image localUrl=6a5bdac5gw1f3zh6dl3clg208p07q... -507(超出限制) 
+[2016-05-23 14:23:09] POST 127.0.0.1 /admin/news/add?action=upload&dir=image localUrl=6a5bdac5gw1f3zh6dl3clg208p07q... -507(超出限制) 
+[2016-05-23 14:23:15] POST 127.0.0.1 /admin/news/add?action=upload&dir=image localUrl=2.gif 0(OK) http://web.test.com/upload/image/20160523/20160523142315_32771.gif
+[2016-05-23 14:25:11] POST 127.0.0.1 /admin/news/add?action=upload&dir=image localUrl=afd4be82be3eadc66ebabd3ef98ec... 0(OK) http://web.test.com/upload/image/20160523/20160523142511_12842.jpg
+[2016-05-23 14:26:55] POST 127.0.0.1 /admin/news/add?action=upload  0(OK) http://web.test.com/upload/image/20160523/20160523142655_42181.jpg
+[2016-05-23 14:27:53] POST 127.0.0.1 /admin/news/add?action=upload  0(OK) http://web.test.com/upload/image/20160523/20160523142753_90639.jpg
+[2016-05-23 14:28:03] POST 127.0.0.1 /admin/news/add?action=upload&dir=image localUrl=20081222224125647.jpg 0(OK) http://web.test.com/upload/image/20160523/20160523142803_75448.jpg
+[2016-05-23 14:29:48] POST 127.0.0.1 /admin/news/add?action=upload&dir=image localUrl=8b13632762d0f70304ed36550afa5... 0(OK) http://web.test.com/upload/image/20160523/20160523142948_46677.jpg
+[2016-05-23 14:30:04] POST 127.0.0.1 /admin/news/add action=add&id=&url=&title=test的&sub_title=&type=9&images=/upload/image/20160523/201605...&content=<img src="/upload/image/20160... 0(OK) 
+[2016-05-23 15:00:38] POST 127.0.0.1 /admin/news/add?action=upload  0(OK) http://web.test.com/upload/image/20160523/20160523150038_39215.gif
+[2016-05-23 15:15:48] POST 127.0.0.1 /admin/news/add?action=upload  0(OK) http://web.test.com/upload/image/20160523/20160523151548_48207.gif
+[2016-05-23 15:16:11] POST 127.0.0.1 /admin/news/add?action=upload  0(OK) http://web.test.com/upload/image/20160523/20160523151611_14405.gif
+[2016-05-23 15:17:39] POST 127.0.0.1 /admin/news/add?action=upload  0(OK) http://web.test.com/upload/image/20160523/20160523151739_18162.gif
+[2016-05-23 15:17:47] POST 127.0.0.1 /admin/news/add?action=upload&dir=image localUrl=8b13632762d0f70304ed36550afa5... 0(OK) http://web.test.com/upload/image/20160523/20160523151747_27877.jpg
+[2016-05-23 16:38:27] POST 127.0.0.1 /admin/news/add action=edit&id=24&url=http://web.test.com/admin/new...&title=test的666&sub_title=他他他&type=7&images=/upload/image/20160523/201605...&content=<p>
+	的地方 的
+</p>
+<p... 0(OK) 
+[2016-05-23 16:38:48] POST 127.0.0.1 /admin/news/add?action=upload  0(OK) http://web.test.com/upload/image/20160523/20160523163848_76719.gif
+[2016-05-23 16:42:41] POST 127.0.0.1 /admin/news/add action=edit&id=14&url=http://web.test.com/admin/new...&title=习近平签第三十六号�...&sub_title=习近平签第三十六号�...&type=6&images=/upload/image/20160523/201605...&content=<div class="otitle">
+	（原... 0(OK) 
+[2016-05-23 16:42:54] POST 127.0.0.1 /admin/news/add action=edit&id=14&url=http://web.test.com/admin/new...&title=习近平签第三十六号�...&sub_title=习近平签第三十六号�...&type=6&images=/upload/image/20160523/201605...&content=<div class="otitle">
+	（原... 0(OK) 

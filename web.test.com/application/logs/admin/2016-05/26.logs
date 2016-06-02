@@ -1,0 +1,6 @@
+[2016-05-26 10:20:17] POST 127.0.0.1 /admin/index/login action=login&username=xiaokang8&password=kangyun&code=xubx 0(OK) 
+[2016-05-26 10:26:02] POST 127.0.0.1 /admin/admin/add action=check&username=admin 0(OK) 
+[2016-05-26 10:26:03] POST 127.0.0.1 /admin/admin/add action=add&adminid=&url=&username=admin&password=123456&repassword=admin&email=admin@admin.com 0(OK) 
+[2016-05-26 10:28:17] POST 127.0.0.1 /admin/admin/add action=check&username=admin2 0(OK) 
+[2016-05-26 10:28:17] POST 127.0.0.1 /admin/admin/add action=add&adminid=&url=&username=admin2&password=123456&repassword=123456&email=kang@kang.com 0(OK) 
+[2016-05-26 11:02:39] POST 127.0.0.1 /admin/index/login action=login&username=xiaokang8&password=kangyun&code=xdht 0(OK) 
