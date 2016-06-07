@@ -32,3 +32,16 @@ function logout() {
             }]
     });
 }
+
+function _alert(msg) {
+    var html = '<p style="font-size:16px;margin-top:20px"><span style="float:left; margin:0 7px 50px 0;" class="ui-icon ui-icon-alert"></span> ' + msg + '</p>';
+    $('#alert_message').html(html);
+    $('#alert_message').dialog({
+        title: '提示',
+        buttons: {
+            OK: function () {
+                $(this).dialog("close");
+            }
+        }
+    });
+}

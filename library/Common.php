@@ -91,11 +91,7 @@ function decodeURL($url) {
  * @return int
  */
 function logMessages($logs) {
-    $path = LOG_PATH . date('Y-m');
-    if (!is_dir($path)) {
-        @mkdir($path, 0777, TRUE);
-    }
-    return file_put_contents($path . '/' . date('j') . '.log', date('[Y-m-d H:i:s]') . ' ' . $logs . "\n", FILE_APPEND);
+    return file_put_contents(LOG_PATH . '/sys.log', date('[Y-m-d H:i:s]') . ' ' . $logs . "\n", FILE_APPEND);
 }
 
 /**

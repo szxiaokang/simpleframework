@@ -1,9 +1,9 @@
-1 ´´½¨simpleFrameworkÊı¾İ¿â, ½«simpleFramework.sqlµ¼Èë
-2 Ôö¼ÓnginxÅäÖÃ:
+ï»¿1 åˆ›å»ºsimpleFrameworkæ•°æ®åº“, å°†simpleFramework.sqlå¯¼å…¥
+2 å¢åŠ nginxé…ç½®:
 	    server {
         listen       80;
-        server_name web.test.com;#¿É×Ô¶¨ÓòÃû
-		root E:/dev-www/simpleFramework/web.test.com/www; #¸Ä³ÉÄãµÄÄ¿Â¼
+        server_name web.test.com;#å¯è‡ªå®šåŸŸå
+		root E:/dev-www/simpleFramework/web.test.com/www; #æ”¹æˆä½ çš„ç›®å½•
 		location / {
 			index  index.shtml index.htm index.php;
 			if (!-e $request_filename){
@@ -19,9 +19,11 @@
         }
  
     }
-3 ÔÚc:\Windows\System32\drivers\etc\hostsÔö¼Ó:
+3 åœ¨c:\Windows\System32\drivers\etc\hostså¢åŠ :
 	127.0.0.1 web.test.com
-4 ¸ü¸ÄÊı¾İ¿âÅäÖÃ: web.test.com/application/config/development/config.php
+4 æ›´æ”¹æ•°æ®åº“é…ç½®: web.test.com/application/config/development/config.php
+
+5 å°†www/upload/ ç›®å½•ç½®ä¸ºå¯å†™
 	
-	´ò¿ªä¯ÀÀÆ÷ÊäÈë web.test.com
-	×£ÄãºÃÔË! :)
+	æ‰“å¼€æµè§ˆå™¨è¾“å…¥ web.test.com
+	ç¥ä½ å¥½è¿! :)

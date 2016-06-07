@@ -22,7 +22,7 @@ Class Users extends Model {
      * @return array
      */
     public function getLastUser() {
-        return $this->select('email, addtime, avatar, sex')->orderBy('uid', 'DESC')->limit(10)->getAll($this->userTable);
+        return $this->select('email, addtime, avatar, sex')->orderBy('uid', 'DESC')->limit(6)->getAll($this->userTable);
     }
 
     /**

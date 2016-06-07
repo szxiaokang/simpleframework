@@ -18,7 +18,7 @@
             <tr>
                 <td width="60" style="vertical-align:middle"><img src="/assets/images/icon/1.gif" width="40" height="40" /> </td>
                 <td class="text-left">
-                    <h4> 核心代码小于<span class="text-primary">150K</span></h4>
+                    <h4> 核心代码小于<span class="text-primary">100K</span></h4>
                     <p class="text-muted">核心代码少意味着每次加载所需的时间就少, 性能就高</p>
                 </td>
             </tr>

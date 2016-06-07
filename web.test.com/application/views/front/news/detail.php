@@ -31,7 +31,7 @@
                     foreach ($rows as $item) {
                         ?>
                         <tr>
-                            <td><a href="/detail.htm?id=<?php echo $item['id']; ?>">
+                            <td><a href="/news/detail?id=<?php echo $item['id']; ?>">
                                     <?php
                                     echo!empty($item["images"]) ? "<span class=\"glyphicon glyphicon-picture\"></span>" : "";
                                     echo $item['title'];

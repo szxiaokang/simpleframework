@@ -11,7 +11,7 @@
  */
 class Admins extends Model {
 
-    public $adminTable = 'admin';
+    public $adminTable = 'simpleframework.admin';
 
     /**
      * 管理员登录

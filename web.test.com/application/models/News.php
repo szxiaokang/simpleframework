@@ -11,8 +11,8 @@
  */
 class News extends Model {
 
-    public $newsTable = 'simpleFramework.news';
-    public $typeTable = 'simpleFramework.news_type';
+    public $newsTable = 'simpleframework.news';
+    public $typeTable = 'simpleframework.news_type';
     
     /**
      * 检测类型名称是否存在
