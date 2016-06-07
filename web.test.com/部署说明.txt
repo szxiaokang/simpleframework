@@ -24,6 +24,8 @@
 4 更改数据库配置: web.test.com/application/config/development/config.php
 
 5 将www/upload/ 目录置为可写
+    
+注意: linux 下大小写的问题
 	
 	打开浏览器输入 web.test.com
 	祝你好运! :)
