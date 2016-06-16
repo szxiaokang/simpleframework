@@ -110,7 +110,7 @@
                     $('#mp3').html('<audio src="' + mp3_file + '" id="audio1" hidden="false" autoplay="true" loop="true"></audio> ');
                 }
 
-                var rand = Math.floor(Math.random() * 30 + 1);
+                var rand = Math.floor(Math.random() * 11 + 1);
                 $('#background').attr('src', "/assets/images/bg/" + rand + ".jpg");
                 if (rand > 5) {
                     $('#_login').delay(800).fadeIn(2000);
