@@ -17,7 +17,7 @@ SimpleFramework, 简约而不简单的MVC框架
 
 安全高效 对于所有的Request过滤
 
-性能测试报告(与 CodeIgniter3.0.5相比, 页面内容一致):
+性能测试报告, 几乎是CodeIgniter3框架的两倍(与 CodeIgniter3.0.5相比, 页面内容和查询数据完全一致):
 
 ab -n 1000 -c 500 http://www.sf.com/test
 
@@ -61,6 +61,8 @@ ab -n 1000 -c 500 http://www.ci.com/test
 
 6 将www.sf.com/application/logs 目录置为可写
     
+7 重启nginx
+
 注意: linux 下大小写的问题
 	
 	打开浏览器输入 www.sf.com
