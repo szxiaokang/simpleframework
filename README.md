@@ -1,7 +1,5 @@
-# simpleframework
-simpleframework 是框架代码
+# SimpleFramework
 
-www.sf.com 是测试框架代码
 
 SimpleFramework, 简约而不简单的MVC框架
 
@@ -27,6 +25,11 @@ ab -n 1000 -c 500 http://www.ci.com/test
 
 
 # 部署说明
+
+
+simpleframework 是框架代码
+
+www.sf.com 是测试框架代码
 
 1 创建simpleframework数据库, 将www.sf.com/simpleframework.sql导入
 
