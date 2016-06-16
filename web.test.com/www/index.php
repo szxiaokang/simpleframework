@@ -13,7 +13,7 @@ session_start();
 define('ENV', 'development');
 define('APP_PATH', str_replace('\\', '/', dirname(dirname(__FILE__))) . '/application/');
 define('WWW_PATH', str_replace('\\', '/', dirname(dirname(__FILE__))) . '/www/');
-define('LIB_PATH', str_replace('\\', '/', dirname(dirname(dirname(__FILE__)))) . '/library/');
+define('LIB_PATH', str_replace('\\', '/', dirname(dirname(dirname(__FILE__)))) . '/simpleframework/');
 define('LOG_PATH', APP_PATH . 'logs/');
 include LIB_PATH . 'SimpleFramework.php';
 
