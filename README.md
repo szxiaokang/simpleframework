@@ -29,7 +29,9 @@ ab -n 1000 -c 500 http://www.ci.com/test
 # 部署说明
 
 1 创建simpleframework数据库, 将www.sf.com/simpleframework.sql导入
+
 2 增加nginx配置:
+
 	server {
         listen       80;
         server_name www.sf.com;#可自定域名
@@ -50,6 +52,7 @@ ab -n 1000 -c 500 http://www.ci.com/test
  
     }
 3 在c:\Windows\System32\drivers\etc\hosts增加:
+
 	127.0.0.1 www.sf.com
 	
 4 更改数据库配置: www.sf.com/application/config/development/config.php
