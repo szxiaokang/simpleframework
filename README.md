@@ -38,7 +38,7 @@ ab -n 1000 -c 500 http://www.sf.com/test
 
 ab -n 1000 -c 500 http://www.ci.com/test
 
-![](http://static.oschina.net/uploads/space/2016/0613/112610_RkjF_1397876.png)
+![](https://github.com/szxiaokang/simpleframework/nc.png)
 
 
 # 部署说明
