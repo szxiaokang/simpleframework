@@ -1,7 +1,7 @@
 # SimpleFramework
 
 
-SimpleFramework, 简约而不简单的 MVC 框架
+SimpleFramework，简约而不简单的 MVC 框架
 
 ## 特性介绍
 
@@ -15,7 +15,7 @@ SimpleFramework, 简约而不简单的 MVC 框架
 ## 性能测试
 	
 
-性能测试报告, 几乎是 CodeIgniter 3 框架的两倍(与 CodeIgniter 3.0.5 相比, 页面内容和查询数据完全一致, www.ci.com 是本地绑hosts 的 CI 框架示例):
+性能测试报告, 几乎是 CodeIgniter 3 框架的两倍（与 CodeIgniter 3.0.5 相比，页面内容和查询数据完全一致，www.ci.com 是本地绑hosts 的 CI 框架示例）：
 ```bash
 ab -n 1000 -c 500 http://www.sf.com/test
 
@@ -30,8 +30,8 @@ ab -n 1000 -c 500 http://www.ci.com/test
 
 simpleframework 是框架代码，www.sf.com 是测试框架代码。
 
-1. 创建 simpleframework 数据库, 将 www.sf.com/simpleframework.sql 导入
-2. 增加 nginx 配置:
+1. 创建 simpleframework 数据库，将 www.sf.com/simpleframework.sql 导入
+2. 增加 nginx 配置：
 ```bash
 	server {
         listen       80;
@@ -53,15 +53,15 @@ simpleframework 是框架代码，www.sf.com 是测试框架代码。
  
     }
 ```
-3. 在 c:\Windows\System32\drivers\etc\hosts 增加:
+3. 在 c:\Windows\System32\drivers\etc\hosts 增加：
 ```bash
 	127.0.0.1 www.sf.com
 ```
-4. 更改数据库配置: www.sf.com/application/config/development/config.php
+4. 更改数据库配置： www.sf.com/application/config/development/config.php
 5. 将 www.sf.com/www/upload/ 目录置为可写
 6. 将 www.sf.com/application/logs 目录置为可写
 7. 重启 nginx （注意: linux 下大小写的问题）
 8. 打开浏览器输入 www.sf.com，祝你好运!  :)
 
 ## 联系方式
-如有疑问 可联系 273030282@qq.com
+如有疑问，可联系 273030282@qq.com
