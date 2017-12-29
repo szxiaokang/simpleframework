@@ -1,10 +1,10 @@
 # SimpleFramework
 
 
-SimpleFramework, 简约而不简单的MVC框架
-核心代码小于100K
+SimpleFramework, 简约而不简单的 MVC 框架
+核心代码小于 100K
 
-	简单而高效的核心代码, 相对于CI, 是其框架性能的两倍
+	简单而高效的核心代码, 相对于 CI, 是其框架性能的两倍
 	
 	
 不用约束任何规则
@@ -29,10 +29,10 @@ SimpleFramework, 简约而不简单的MVC框架
 	
 安全高效
 
-	对于所有的Request过滤
+	对于所有的 Request 过滤
 	
 
-性能测试报告, 几乎是CodeIgniter3框架的两倍(与 CodeIgniter3.0.5相比, 页面内容和查询数据完全一致, www.ci.com 是本地绑hosts的CI框架示例):
+性能测试报告, 几乎是 CodeIgniter 3 框架的两倍(与 CodeIgniter 3.0.5 相比, 页面内容和查询数据完全一致, www.ci.com 是本地绑hosts 的 CI 框架示例):
 
 ab -n 1000 -c 500 http://www.sf.com/test
 
@@ -48,13 +48,13 @@ simpleframework 是框架代码
 
 www.sf.com 是测试框架代码
 
-1 创建simpleframework数据库, 将www.sf.com/simpleframework.sql导入
+1 创建 simpleframework 数据库, 将 www.sf.com/simpleframework.sql 导入
 
 2 增加nginx配置:
 
 	server {
         listen       80;
-        server_name www.sf.com;#可自定域名
+        server_name www.sf.com; #可自定域名
 		root E:/dev-www/simpleframework/www.sf.com/www; #改成你的目录
 		location / {
 			index  index.shtml index.htm index.php;
@@ -71,17 +71,17 @@ www.sf.com 是测试框架代码
         }
  
     }
-3 在c:\Windows\System32\drivers\etc\hosts增加:
+3 在 c:\Windows\System32\drivers\etc\hosts 增加:
 
 	127.0.0.1 www.sf.com
 	
 4 更改数据库配置: www.sf.com/application/config/development/config.php
 
-5 将www.sf.com/www/upload/ 目录置为可写
+5 将 www.sf.com/www/upload/ 目录置为可写
 
-6 将www.sf.com/application/logs 目录置为可写
+6 将 www.sf.com/application/logs 目录置为可写
     
-7 重启nginx
+7 重启 nginx
 
 注意: linux 下大小写的问题
 	
