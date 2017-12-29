@@ -11,7 +11,7 @@
  */
 class Captchas {
 
-    public function Style1($length = 4, $mode = 4, $type = 'png', $width = 75, $height = 20) {
+    public function style1($length = 4, $mode = 4, $type = 'png', $width = 75, $height = 20) {
         $randval = $this->randString($length, $mode);
         $_SESSION['captcha1'] = $randval;
         //$width = ($length * 9 + 10) > $width ? $length * 9 + 10 : $width;
