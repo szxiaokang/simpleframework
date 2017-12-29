@@ -38,7 +38,7 @@ ab -n 1000 -c 500 http://www.sf.com/test
 
 ab -n 1000 -c 500 http://www.ci.com/test
 
-![image](https://github.com/szxiaokang/simpleframework/blob/master/nc.png)
+![image](benchmark.png)
 
 
 # 部署说明
