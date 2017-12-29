@@ -1,4 +1,4 @@
-# SimpleFramework [English Introduction](README.md)
+# SimpleFramework ([English Introduction](README.md))
 
 
 SimpleFramework，简约而不简单的 MVC 框架
